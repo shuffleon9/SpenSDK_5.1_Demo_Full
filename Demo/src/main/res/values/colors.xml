@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="memo_bg_color">#FAFAFA</color>
+
+    <color name="memo_primary_color">#eb9500</color>
+    <color name="memo_primary_dark_color">#d38600</color>
+
+    <color name="theme_action_bar_text_style_color">#b3fafafa</color>
+    <color name="theme_action_bar_text_shadow_color_categories">#FF000000</color>
+
+    <color name="theme_edit_action_bar_menu_text_color">#dc952c</color>
+    <color name="theme_edit_action_bar_menu_text_color_disabled">#f19c41</color>
+
+    <color name="ripple_btn_color">#FAFAFA</color>
+    <color name="ripple_btn_effect_color">#29000000</color>
+
+    <color name="edit_toolbar_ripple_btn_color">#FAFAFA</color>
+
+    <color name="toolbar_disable_tint_color">#665b5b5b</color>
+
+    <color name="drawing_toolbar_normal_tint_color">#5b5b5b</color>
+
+    <color name="edit_toolbar_ic_text_color">#5b5b5b</color>
+    <color name="edit_toolbar_ic_text_color_disabled">#665b5b5b</color>
+
+    <color name="theme_action_menu_text_color">#fafafa</color>
+    <color name="drawingObjectText">#eb9500</color>
+    <color name="white">#ffffff</color>
+    <color name="colorText">#5b5b5b</color>
+    <color name="colorBorder">#d1d1d1</color>
+    <color name="drawing_color_primary">#ffa500</color>
+    <color name="drawing_toolbar_icon_selected_color">#eaeaea</color>
+    <color name="drawing_toolbar_icon_tint_color">#5b5b5b</color>
+    <color name="drawing_color_gray_start">#adadad</color>
+    <!-- Rich text-->
+    <color name="rich_text_toolbar_image">#616161</color>
+</resources>

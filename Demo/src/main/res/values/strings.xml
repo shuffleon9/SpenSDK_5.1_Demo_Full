@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spen_ProgramGuide</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Settings -->
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="description" translatable="false">ImageView</string>
+    <string name="hintText" translatable="false">hintText</string>
+    <string name="spd" translatable="false">.spd</string>
+    <string name="spp" translatable="false">.spp</string>
+    <string name="png" translatable="false">.png</string>
+    <string name="Title" translatable="false">Title</string>
+    <string name="defaultPenBtn">Default PenList</string>
+    <string name="customPenBtn">Custom PenList</string>
+    <string name="notepadBtn">NotePad</string>
+    <string name="degrees">°</string>
+    <string name="composer_keypad" did="IDS_NOTES_BUTTON_TEXT_M_KEYPAD_ABB">Text</string>
+    <string name="composer_writing" did="IDS_NOTES_BUTTON_PEN_M_HANDWRITING_ABB">Pen</string>
+    <string name="composer_drawing" did="IDS_NOTES_BUTTON_BRUSH_M_DRAWING">Brush</string>
+    <string name="composer_image" did="IDS_NOTES_BUTTON_IMAGE_ABB3">Image</string>
+    <string name="composer_voice" did="IDS_NOTES_BUTTON_VOICE_ABB">Voice</string>
+    <string name="composer_save" did="IDS_NOTES_BUTTON_VOICE_ABB">SAVE</string>
+    <string name="composer_todo" did="IDS_NOTES_TBOPT_CHECKLIST">Checklist</string>
+    <string name="composer_numbering" did="IDS_NOTES_TBOPT_NUMBERED_LIST">Numbered list</string>
+    <string name="composer_bullets" did="IDS_NOTES_TBOPT_BULLET_POINTS">Bullet points</string>
+    <string name="composer_bold" did="IDS_NOTES_TBOPT_BOLD_M_TEXT">Bold</string>
+    <string name="composer_italic" did="IDS_NOTES_TBOPT_ITALIC_M_TEXT">Italic</string>
+    <string name="composer_underline" did="IDS_NOTES_TBOPT_UNDERLINE_M_TEXT_MARK">Underline</string>
+    <string name="composer_font_color" did="IDS_NOTES_TBOPT_FONT_COLOUR">Font Colour</string>
+    <string name="composer_favorite" did="IDS_NOTES_OPT_FAVOURITES">Favourites</string>
+    <string name="composer_lastmodified" did="IDS_NOTES_BODY_LAST_MODIFIED_C_PS">Last modified: %s</string>
+
+</resources>

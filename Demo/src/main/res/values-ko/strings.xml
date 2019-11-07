@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spen_ProgramGuide</string>
+    <string name="action_settings">Settings</string>
+<!--Settings -->
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <!-- IDS_NOTES_BODY_LAST_MODIFIED_C_PS -->
+    <string name="composer_lastmodified">마지막 수정: %s</string>
+</resources>

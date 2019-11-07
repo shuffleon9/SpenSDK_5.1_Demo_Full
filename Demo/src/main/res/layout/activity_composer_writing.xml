@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.pg.utils.BaseFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+
+                style="@style/Editor_icon"
+                android:layout_gravity="center"
+                android:nextFocusForward="@+id/insertBtn"
+                android:nextFocusLeft="@+id/writingBtn"
+                android:nextFocusRight="@+id/insertBtn"
+                android:nextFocusUp="@+id/drawingBtn">
+
+                <ImageView
+                    android:id="@+id/btn_01"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ripple_effect_circle"
+                    android:src="@drawable/note_toolbar_ic_pen"
+                    android:clickable="true" />
+
+                <TextView
+                    style="@style/Editor_icon_text"
+                    android:layout_alignParentBottom="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/composer_writing" />
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                style="@style/Editor_icon"
+                android:layout_gravity="center"
+                android:nextFocusForward="@+id/saveBtn_parent"
+                android:nextFocusLeft="@+id/insertBtn"
+                android:nextFocusRight="@+id/saveBtn_parent"
+                android:nextFocusUp="@+id/voiceBtn">
+
+                <ImageView
+                    android:id="@+id/btn_03"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ripple_effect_circle"
+                    android:src="@drawable/note_toolbar_ic_voice"></ImageView>
+
+                <TextView
+                    style="@style/Editor_icon_text"
+                    android:layout_alignParentBottom="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/composer_voice" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                style="@style/Editor_icon"
+                android:layout_gravity="center"
+                android:nextFocusForward="@+id/voiceBtn"
+                android:nextFocusLeft="@+id/drawingBtn"
+                android:nextFocusRight="@+id/voiceBtn"
+                android:nextFocusUp="@+id/insertBtn">
+
+                <ImageView
+                    android:id="@+id/btn_04"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ripple_effect_circle"
+                    android:src="@drawable/note_toolbar_ic_image" />
+
+                <TextView
+                    style="@style/Editor_icon_text"
+                    android:layout_alignParentBottom="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/composer_image" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                style="@style/Editor_icon"
+                android:layout_gravity="center"
+                android:nextFocusForward="@+id/voiceBtn"
+                android:nextFocusLeft="@+id/drawingBtn"
+                android:nextFocusRight="@+id/voiceBtn"
+                android:nextFocusUp="@+id/insertBtn"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/btn_05"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ripple_effect_circle"
+                    android:src="@android:drawable/ic_menu_mapmode"
+                    />
+
+                <TextView
+                    style="@style/Editor_icon_text"
+                    android:layout_alignParentBottom="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Web" />
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                style="@style/Editor_icon"
+                android:layout_gravity="center"
+                android:nextFocusForward="@+id/voiceBtn"
+                android:nextFocusLeft="@+id/drawingBtn"
+                android:nextFocusRight="@+id/voiceBtn"
+                android:nextFocusUp="@+id/insertBtn">
+
+                <ImageView
+                    android:id="@+id/btn_08"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ripple_effect_circle"
+                    android:src="@android:drawable/ic_menu_save" />
+
+                <TextView
+                    style="@style/Editor_icon_text"
+                    android:layout_alignParentBottom="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Save" />
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                style="@style/Editor_icon"
+                android:layout_gravity="center"
+                android:nextFocusForward="@+id/voiceBtn"
+                android:nextFocusLeft="@+id/drawingBtn"
+                android:nextFocusRight="@+id/voiceBtn"
+                android:nextFocusUp="@+id/insertBtn">
+
+                <ImageView
+                    android:id="@+id/btn_06"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ripple_effect_circle"
+                    android:src="@android:drawable/ic_menu_upload" />
+
+                <TextView
+                    style="@style/Editor_icon_text"
+                    android:layout_alignParentBottom="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Load" />
+            </RelativeLayout>
+
+            <!--RelativeLayout
+
+                style="@style/Editor_icon"
+                android:layout_gravity="center"
+                android:nextFocusForward="@+id/voiceBtn"
+                android:nextFocusLeft="@+id/drawingBtn"
+                android:nextFocusRight="@+id/voiceBtn"
+                android:nextFocusUp="@+id/insertBtn">
+
+                <ImageView
+                    android:id="@+id/btn_02"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ripple_effect_circle"
+                    android:src="@android:drawable/ic_menu_search" />
+
+                <TextView
+                    style="@style/Editor_icon_text"
+                    android:layout_alignParentBottom="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Search" />
+            </RelativeLayout-->
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/bottom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/rich_text_menu"
+                    layout="@layout/composer_rich_text_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <com.samsung.android.sdk.pen.pg.utils.ComposerContainer
+                android:id="@+id/canvasLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/bottom_layout"
+                android:layout_below="@+id/top_layout">
+
+                <com.samsung.android.sdk.composer.SpenComposerView
+                    android:id="@+id/composer_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </com.samsung.android.sdk.pen.pg.utils.ComposerContainer>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/bottom_layout"
+                android:layout_below="@+id/top_layout">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/setting_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true" />
+                </FrameLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottom_layout"
+                android:layout_below="@+id/top_layout">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/composer_setting_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true" />
+
+                </FrameLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</com.samsung.android.sdk.pen.pg.utils.BaseFrameLayout>

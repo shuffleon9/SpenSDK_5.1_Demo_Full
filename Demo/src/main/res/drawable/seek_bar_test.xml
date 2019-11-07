@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/progress_handler">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <solid android:color="#ffffff" />
+            <size
+                android:width="17dp"
+                android:height="17dp" />
+            <stroke
+                android:width="1px"
+                android:color="#d6d6d6" />
+        </shape>
+    </item>
+
+    <item android:id="@+id/progress_handler_stroke">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <solid android:color="#00000000" />
+            <stroke
+                android:width="1px"
+                android:color="#d6d6d6" />
+            <padding
+                android:bottom="1px"
+                android:left="1px"
+                android:right="1px"
+                android:top="1px" />
+        </shape>
+    </item>
+</layer-list>

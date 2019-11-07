@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Page navi panel -->
+    <dimen name="pagenavi_w">100dp</dimen>
+    <dimen name="pagenavi_h">26dp</dimen>
+    <dimen name="pagenavi_padding_bottom">20dp</dimen>
+    <dimen name="page_btn_size">24dp</dimen>
+    <dimen name="page_btn_margin">1.3dp</dimen>
+    <dimen name="page_btn_padding">5dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="theme_action_bar_text_style_size">20sp</dimen>
+
+    <integer name="theme_action_bar_text_shadow_dy">2</integer>
+    <integer name="theme_action_bar_text_shadow_radius">1</integer>
+
+    <dimen name="theme_edit_action_bar_menu_text_style_size">15dp</dimen>
+
+    <dimen name="edit_toolbar_width">242dp</dimen>
+    <dimen name="edit_toolbar_height">54dp</dimen>
+    <dimen name="edit_toolbar_padding_top">2dp</dimen>
+    <dimen name="edit_toolbar_padding_bottom">2dp</dimen>
+    <dimen name="edit_toolbar_padding_left">4dp</dimen>
+
+    <dimen name="edit_toolbar_bg_padding_left">2dp</dimen>
+    <dimen name="edit_toolbar_bg_padding_right">2dp</dimen>
+    <dimen name="edit_toolbar_bg_padding_top">2dp</dimen>
+    <dimen name="edit_toolbar_bg_padding_bottom">2dp</dimen>
+
+    <dimen name="edit_toolbar_ic_width">55dp</dimen>
+    <dimen name="edit_toolbar_ic_height">46dp</dimen>
+
+    <dimen name="edit_toolbar_ic_padding_top">5dp</dimen>
+    <dimen name="edit_toolbar_ic_padding_bottom">5dp</dimen>
+
+    <dimen name="edit_toolbar_drawable_padding">-4dp</dimen>
+
+    <dimen name="edit_toolbar_ic_text_size">12dp</dimen>
+
+    <dimen name="theme_action_menu_text_size">15dp</dimen>
+
+    <color name="edit_toolbar_separator_color">#dddddd</color>
+
+
+    <dimen name="pallete_view_height">220dp</dimen>
+
+    <dimen name="drawing_toolbar_item_width">34dp</dimen>
+    <dimen name="drawing_toolbar_icon_size">24dp</dimen>
+    <dimen name="drawing_toolbar_icon_padding_size">5dp</dimen>
+
+    <dimen name="toolbar_drawing_done_button_width">68dp</dimen>
+    <dimen name="toolbar_drawing_height">114dp</dimen>
+
+</resources>

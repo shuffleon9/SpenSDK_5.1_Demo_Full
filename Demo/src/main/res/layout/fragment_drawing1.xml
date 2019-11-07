@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_drawing_height"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/drawingOkBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="18dp"
+                android:layout_alignParentEnd="true"
+                android:gravity="top|center_horizontal"
+                android:textColor="@color/drawingObjectText"
+                android:textSize="15dp"
+                android:text="DONE"/>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/setting_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+                <RelativeLayout
+                    android:id="@+id/canvasLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00ffff">
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/drawing_menu_item_bg">
+
+                    <ImageView
+                        android:id="@+id/drawingEraserBtn"
+                        android:layout_width="@dimen/drawing_toolbar_item_width"
+                        android:layout_height="@dimen/drawing_toolbar_item_width"
+                        android:layout_marginRight="6dp"
+                        android:background="@drawable/drawing_selector_tool_bg"
+                        android:padding="@dimen/drawing_toolbar_icon_padding_size" />
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/drawingSmudgeBtn"-->
+                        <!--android:layout_width="@dimen/drawing_toolbar_item_width"-->
+                        <!--android:layout_height="@dimen/drawing_toolbar_item_width"-->
+                        <!--android:layout_marginRight="6dp"-->
+                        <!--android:background="@drawable/drawing_selector_tool_bg"-->
+                        <!--android:padding="@dimen/drawing_toolbar_icon_padding_size" />-->
+
+                    <ImageView
+                        android:id="@+id/drawingUndoBtn"
+                        android:layout_width="@dimen/drawing_toolbar_item_width"
+                        android:layout_height="@dimen/drawing_toolbar_item_width"
+                        android:layout_marginRight="6dp"
+                        android:background="@drawable/drawing_selector_tool_bg"
+                        android:padding="@dimen/drawing_toolbar_icon_padding_size" />
+
+                    <ImageView
+                        android:id="@+id/drawingRedoBtn"
+                        android:layout_width="@dimen/drawing_toolbar_item_width"
+                        android:layout_height="@dimen/drawing_toolbar_item_width"
+                        android:layout_marginRight="6dp"
+                        android:background="@drawable/drawing_selector_tool_bg"
+                        android:padding="@dimen/drawing_toolbar_icon_padding_size" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/drawing_brush_setting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</RelativeLayout>
