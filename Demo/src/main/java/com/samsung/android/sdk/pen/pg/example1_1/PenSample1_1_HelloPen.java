@@ -103,31 +103,31 @@ public class PenSample1_1_HelloPen extends Activity {
                     Toast.LENGTH_SHORT).show();
             finish();
         }
-        else if (errType == SsdkUnsupportedException.LIBRARY_NOT_INSTALLED) {
-            // If SpenSDK APK is not installed.
-            showAlertDialog( "You need to install additional Spen software"
-                +" to use this application."
-                + "You will be taken to the installation screen."
-                + "Restart this application after the software has been installed."
-                , true);
-        } else if (errType
-                == SsdkUnsupportedException.LIBRARY_UPDATE_IS_REQUIRED) {
-            // SpenSDK APK must be updated.
-            showAlertDialog( "You need to update your Spen software "
-                + "to use this application."
-                + " You will be taken to the installation screen."
-                + " Restart this application after the software has been updated."
-                , true);
-        } else if (errType
-                == SsdkUnsupportedException.LIBRARY_UPDATE_IS_RECOMMENDED) {
-            // Update of SpenSDK APK to an available new version is recommended.
-            showAlertDialog( "We recommend that you update your Spen software"
-                +" before using this application."
-                + " You will be taken to the installation screen."
-                + " Restart this application after the software has been updated."
-                , false);
-            return false;
-        }
+//        else if (errType == SsdkUnsupportedException.LIBRARY_NOT_INSTALLED) {
+//            // If SpenSDK APK is not installed.
+//            showAlertDialog( "You need to install additional Spen software"
+//                +" to use this application."
+//                + "You will be taken to the installation screen."
+//                + "Restart this application after the software has been installed."
+//                , true);
+//        } else if (errType
+//                == SsdkUnsupportedException.LIBRARY_UPDATE_IS_REQUIRED) {
+//            // SpenSDK APK must be updated.
+//            showAlertDialog( "You need to update your Spen software "
+//                + "to use this application."
+//                + " You will be taken to the installation screen."
+//                + " Restart this application after the software has been updated."
+//                , true);
+//        } else if (errType
+//                == SsdkUnsupportedException.LIBRARY_UPDATE_IS_RECOMMENDED) {
+//            // Update of SpenSDK APK to an available new version is recommended.
+//            showAlertDialog( "We recommend that you update your Spen software"
+//                +" before using this application."
+//                + " You will be taken to the installation screen."
+//                + " Restart this application after the software has been updated."
+//                , false);
+//            return false;
+//        }
         return true;
     }
 

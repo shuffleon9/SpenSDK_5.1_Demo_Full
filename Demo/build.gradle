@@ -31,7 +31,7 @@ repositories {
 
 dependencies {
     implementation files('libs/jsoup-1.8.3.jar')
-    implementation files('libs/sdk-v1.0.0.jar')
+    implementation files('libs/sdk-v1.0.1.jar')
     fileTree(dir: 'libs', include: '*.aar').each {
         File file ->
             dependencies.add("implementation", [name: file.name.lastIndexOf('.').with {
